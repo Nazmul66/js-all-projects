@@ -1,0 +1,29 @@
+
+section{
+    background-color: #3293d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.text-field{
+    width: 100%;
+}
+.text-field #textBox{
+    width: 100%;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 15px 25px;
+    caret-color: #35d4c7;
+    background-color: #172834;
+    color: #f7f7f7;
+}
+.text-field #charecter{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f7f7f7;
+}
