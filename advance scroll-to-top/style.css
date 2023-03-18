@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--dark );
+}
+
+:root{
+    --dark : #000;
+    --white: #FFF;
+}
+
+.name{
+    text-align: center;
+    font-size: 30px;
+    color: var(--white);
+    font-weight: 700;
+}
+p{
+    color: var(--white); 
+}
+#scrolling{
+    position: fixed;
+    bottom: 18px;
+    right: -218px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+#scrolling.activeNess{
+    opacity: 1;
+    visibility: visible;
+    right: 18px;
+}
+#scroll-to-top{
+    background: #FFF;
+    width: calc(100% - 15px);
+    height: calc(100% - 15px);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

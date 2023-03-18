@@ -1,0 +1,44 @@
+body{
+    background: var(--white)
+}
+:root{
+    --dark: #000;
+    --pink: hotpink;
+    --white: #FFF;
+}
+.dark-theme{
+    --dark: #FFF;
+    --pink: #FFF;
+    --white: #000;
+}
+
+
+.toggle-mood{
+    position: absolute;
+    top: 8%;
+    right: 6%;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 10;   
+}
+.toggle-mood i{
+    color: var(--dark);
+}
+h1{
+    color: var(--dark);
+    text-align: center;
+    text-transform: capitalize;
+}
+p{
+    font-weight: 500;
+    color: var(--dark);
+}
+.btn{
+    font-weight: 700;
+    padding: 12px 20px;
+    background: var(--pink);
+    border: none;
+    color: var(--white);
+    border-radius: 5px; 
+    cursor: pointer;
+}
