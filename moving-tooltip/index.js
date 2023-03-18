@@ -7,7 +7,7 @@ tooltips.forEach((items) =>{
         let x = e.clientX;
         let y = e.clientY;
         
-        tooltip.style.left = (x + 5) + "px";
-        tooltip.style.top = (y + 5) + "px";
+        tooltip.style.left = (x + 20) + "px";
+        tooltip.style.top = (y + 20) + "px";
     })
 })
